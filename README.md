@@ -297,7 +297,7 @@ mv ulysses-1.jpeg ../
 * Do you see the picture?
 - [ ] To move the picture down one level and into the `home` folder, type:
 ```
-mv ulysses-1.jpeg ../home
+mv ulysses-1.jpeg ../home/
 ```
 - [ ] Press `Enter`
 
@@ -305,7 +305,7 @@ mv ulysses-1.jpeg ../home
 * Tip: You can combine `../` multiple times to move images down more than one level. For example, to move `ulysses-1.jpeg` from `Alley` directly to `home`, I could've typed:
 
 ```
-  mv ulysses-1.jpeg ../../home
+  mv ulysses-1.jpeg ../../home/
 ```
 
 - [ ] Move the remaining 5 pictures `home`!
