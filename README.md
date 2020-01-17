@@ -321,6 +321,10 @@ mv ulysses-1.jpeg ../home/
 
 First of all, thanks for bringing my cat back home. It'd be great if we could document and save this work.
 
+#### Downloading the Atom text editor
+
+- [ ] Head to the [Atom](https://atom.io) site to download the correct version of Atom for your operating system.
+
 #### Documenting your work
 
 Throughout the semester, I'll ask you to write technical documentation which reflects on the work you've done in a given lab. Many students find this step helpful in recalling or explaining what they've learned.
@@ -408,16 +412,6 @@ This message shows that your installation appears to be working correctly.
 ```
 docker run -it --mount type=bind,source="$(pwd)",target="/project" --hostname GatorGrader gatoreducator/dockagator
 ```
-
-##### Windows users
-
-Some Windows users may have difficulty with the above command. The command below should substitute for it:
-
-```
-docker run -it --mount type=bind,source=%cd%,target="/project" --hostname GatorGrader gatoreducator/dockagator
-```
-
-Here, `%cd%` is equivalent to the Unix command `"$(pwd)"`.
 
 ### Turning or saving progress in an assignment
 
