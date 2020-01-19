@@ -1,4 +1,4 @@
-# CMPSC 100-03 Lab Session 1: GitHub, file management, basic tools
+# CMPSC 100-02 Lab Session 1: GitHub, file management, basic tools
 
 * Assigned: 16 January 2020
 * Due: 23 January 2020 by 2:30 PM
